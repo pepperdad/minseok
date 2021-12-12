@@ -81,3 +81,34 @@ main {
 .aboutintro {
   margin: 0px 200px;
 }
+
+@media screen and (max-width: 650px) {
+  .aboutintro {
+    margin: 20px;
+  }
+
+  .greet {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  .introduce {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  .logo * {
+    padding: 5px;
+  }
+
+  .info li {
+    padding: 5px;
+  }
+}
