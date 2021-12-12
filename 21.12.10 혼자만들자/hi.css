@@ -1,0 +1,16 @@
+body {
+}
+
+.hi1 {
+  background-color: gray;
+  width: 50vw;
+}
+
+.hi2 {
+  background-color: hotpink;
+  width: 50%;
+}
+
+.container {
+  border: 2px solid;
+}
